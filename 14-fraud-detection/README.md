@@ -1,4 +1,4 @@
-# 🪤 Tripwire — Fraud & Anomaly Detection System
+# Tripwire — Fraud & Anomaly Detection System
 
 Fraud/anomaly detection for a fictional payments company (**Kite Payments**): a seeded synthetic
 dataset of 5,000 transactions with 150 labeled frauds across 5 patterns, two complementary
@@ -22,7 +22,7 @@ scripts/generate.mjs        scripts/score.mjs                    Next.js app
         Postgres        └──────────────────────────────┘   └──────────────────────────┘
 ```
 
-## Design decisions (interview talking points)
+## Design decisions
 
 1. **Two detectors, deliberately different.** The rules engine is fully explainable — every flag
    lists which rules fired, the points each contributed, and the underlying values in plain
